@@ -1,27 +1,27 @@
 {
-    "name": ""
+    "name": "Default Project"
   , "version": "0.0.1"
-  , "description": ""
+  , "description": "Default NodeJS project template"
   , "homepage": ""
   , "author": "Brad Dickason <dickason@gmail.com>"
   , "contributors": [
         { "name": "Brad Dickason", "email": "dickason@gmail.com" }
     ]
   , "repository":{
-        "type": "git"
-      , "url": "https://github.com/bdickason/"
     }
   , "dependencies": {
-    "express": "3.0.6",
-    "coffee-script": "1.4.0"
+    "express": "3.2.5",
+    "coffee-script": "1.6.2",
+    "component": "0.16.3"
     }
   , "devDependencies": {
-        "mocha": "1.8.1",
-    		"should": "1.2.1"
+        "mocha": "1.10.0",
+    		"should": "1.2.2"
     }
   , "main": "index"
-  , "engines": { "node": ">= 0.4.0" }
+  , "engines": { "node": ">= 0.7.0" }
   , "scripts": {
-        "test": "make test"
+        "test": "make test",
+        "build": "make build"
     }
 }

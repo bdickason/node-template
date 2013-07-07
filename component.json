@@ -1,0 +1,14 @@
+{
+  "name": "Default Project",
+  "description": "Default NodeJS project template",
+  "version": "0.0.1",
+  "local": [
+    "boot"
+  ],
+  "paths": [
+    "client",
+    "client/models",
+    "client/views",
+    "client/controllers"
+  ]
+}

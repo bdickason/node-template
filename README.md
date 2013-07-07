@@ -1,4 +1,9 @@
-mochi-taxes
-===========
+node-template
+=============
 
-App to allow Mochi to deal with sales taxes
+# Generic app template for new projects
+
+1. Express
+1. ComponentJS
+1. Coffee-Script
+1. Mocha
